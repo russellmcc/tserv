@@ -1,0 +1,27 @@
+#!/usr/bin/env node
+
+var optimist = require('optimist').usage('run a test server in the current direcotry.\n. $0')
+    .alias({
+         'p' : 'port'
+    })
+    .describe({
+         'p' : 'ui port'
+    });
+
+var express = require('express');
+
+var server = express.createServer();
+
+server.use(express.static('.'));
+
+var port = optimist.port;
+
+if(!port)
+    port = 8080;
+
+server.listen(port);
+
+console.log("listening on port " + port);
+
+
+
