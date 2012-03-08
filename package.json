@@ -13,13 +13,13 @@
    ],
    "repository" : {
        "type": "git",
-       "url": "http://github.com/russellmcc/node-testserv.git" 
+       "url": "http://github.com/russellmcc/tserv.git" 
    },
    "dependencies" : [
        "express"       
    ],
    "directories": {
-       "bin": "bin",
+       "bin": "bin"
    },
    "engines": {
        "node": ">=0.3.0"
