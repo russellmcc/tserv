@@ -1,4 +1,12 @@
-This is a simple test server utility for debugging web apps that need to be run from a server.  Usage:
+This is a simple test server utility for debugging web apps that need to be run from a server.  
+
+To install:
+
+```
+sudo npm install tserv -g
+```
+
+Usage:
 
 ```
 tserv
