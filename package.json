@@ -16,7 +16,8 @@
        "url": "http://github.com/russellmcc/tserv.git" 
    },
    "dependencies" : [
-       "express"       
+       "express",
+       "optimist"       
    ],
    "directories": {
        "bin": "bin"

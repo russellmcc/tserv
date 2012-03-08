@@ -5,3 +5,10 @@ tserv
 ```
 
 Starts a server in the current directory hosting all local files.
+
+
+```
+tserv -p 8090
+```
+
+Starts a server on port 8090

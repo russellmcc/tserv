@@ -12,9 +12,9 @@ var express = require('express');
 
 var server = express.createServer();
 
-server.use(express.static('.'));
+server.use(express.static(process.cwd()));
 
-var port = optimist.port;
+var port = optimist.argv.port;
 
 if(!port)
     port = 8080;
