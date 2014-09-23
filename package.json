@@ -1,13 +1,13 @@
 {
   "name": "tserv",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "bin": {
     "tserv": "./bin/tserv"
   },
   "author": {
     "name": "Russell McClellan",
     "email": "russell.mcclellan@gmail.com",
-    "url": "http://www.ghostfact.com"
+    "url": "http://www.russellmcc.com"
   },
   "description": "utility test server for current directory",
   "keywords": [
