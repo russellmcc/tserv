@@ -10,7 +10,7 @@ var optimist = require('optimist').usage('run a test server in the current direc
 
 var express = require('express');
 
-var server = express.createServer();
+var server = express();
 
 server.use(express.static(process.cwd()));
 
